@@ -1,0 +1,27 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagora/soap.git"
+  },
+  "author": "franck @lagora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lagora/soap/issues"
+  },
+  "homepage": "https://github.com/lagora/soap#readme",
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "purecss": "^0.6.0"
+  }
+}

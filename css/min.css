@@ -1,0 +1,62 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.quarter {
+  width: 49.9%;
+  height: 49.9%;
+  float: left;
+}
+.v-half {
+  height: 49.9%;
+}
+.h-half {
+  width: 49.9%;
+}
+.main {
+  /*border: 1px solid red;*/
+  position:absolute;
+  width: 33vw;
+  height: 33vw;
+  left:33vw;
+  top:8.25vw;
+}
+.details {
+  width: 100%;
+  float: left;
+  background-color: orange;
+}
+.gfx {
+  background-color: green;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/soap.logo.square.jpg');
+}
+.games {
+  height: 49.9%;
+  /*background-color: blue;*/
+}
+.games ul {
+  margin: 0;
+  padding: 0;
+}
+.games li {
+  margin: 0;
+  list-style-type: none;
+  float: left;
+}
+.games .games-2 li {
+  width: 50%;
+  height: 200%;
+}
+.games .games-4 li {
+  /*background-color: pink;*/
+  width: 50%;
+  height: 50%;
+}
+
+.games .cover {
+  width: 100%;
+}

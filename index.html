@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="SoapApp">
+  <head>
+    <title>Son Of A Pix</title>
+    <link rel="stylesheet" href="/css/min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/node_modules/purecss/build/pure.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="/node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+  </head>
+  <body ng-controller="MainCtrl">
+    <div class="main">
+
+      <div id="soap-logo" class="quarter gfx">
+        <!-- <img src="../img/soap.logo.square.jpg" alt="oap-logo"/> -->
+      </div>
+
+      <div class="quarter games">
+        <input ng-model="query" placeholder="search" class="hidden"/>
+        <ul class="games-{{games.length}}">
+          <li ng-repeat="game in games | filter:query">
+            <!-- <span>{{game.project_name}}</span> -->
+              <img class="cover" src="{{game.cover}}"/>
+          </li>
+        </ul>
+      </div>
+
+      <div class="details v-half">
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
