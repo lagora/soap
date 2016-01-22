@@ -2,21 +2,25 @@
   {
     "project_name": "DOMO",
     "status": "wip",
-    "cover": "http://lorempixel.com/640/640/nature/1"
+    "cover": "1",
+    "description":null
   },
   {
     "project_name": "N",
     "status": "wip",
-    "cover": "http://lorempixel.com/640/640/nature/2"
+    "cover": "2",
+    "description":null
   },
   {
     "project_name": "OO",
     "status": "wip",
-    "cover": "http://lorempixel.com/640/640/nature/3"
+    "cover": "3",
+    "description":null
   },
   {
     "project_name": "Z",
     "status": "wip",
-    "cover": "http://lorempixel.com/640/640/nature/4"
+    "cover": "4",
+    "description":null
   }
 ]

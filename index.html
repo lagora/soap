@@ -10,23 +10,20 @@
   <body ng-controller="MainCtrl">
     <div class="main">
 
-      <div id="soap-logo" class="quarter gfx">
-        <!-- <img src="../img/soap.logo.square.jpg" alt="oap-logo"/> -->
+      <div class="half">
+        <div id="soap-logo">
+          lorem ipsum
+        </div>
       </div>
 
-      <div class="quarter games">
+      <div class="half games games-count-{{games.length}}">
         <input ng-model="query" placeholder="search" class="hidden"/>
-        <ul class="games-{{games.length}}">
-          <li ng-repeat="game in games | filter:query">
-            <!-- <span>{{game.project_name}}</span> -->
-              <img class="cover" src="{{game.cover}}"/>
-          </li>
-        </ul>
+        <div class="game" ng-repeat="(index, game) in games | filter:query">
+          <img class="cover" src="http://lorempixel.com/640/640/nature/{{game.cover}}"/>
+        </div>
       </div>
 
-      <div class="details v-half">
-
-      </div>
+      <div class="third"></div>
 
     </div>
 
