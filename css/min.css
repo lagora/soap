@@ -12,6 +12,12 @@ body {
   background-repeat: no-repeat;
   background-image: url('../img/soap.logo.square.jpg');
 }
+div.cover {
+  text-align: center;
+  margin: 49% auto;
+  font-size: 2rem;
+  color: #CCC;
+}
 @media only screen and (orientation: landscape) {
   #soap-logo {
     height: 50vw;
@@ -58,6 +64,9 @@ body {
 
 
 @media only screen and (orientation: portrait) {
+  body {
+    overflow: auto;
+  }
   #soap-logo {
     width: 100vw;
     height: 25vh;
@@ -72,5 +81,11 @@ body {
   .games .cover {
     width: 100vw;
     height: 200%;
+  }
+  div.cover {
+    /*text-align: center;*/
+    /*margin: 49% auto;*/
+    font-size: 2rem;
+    color: #CCC;
   }
 }

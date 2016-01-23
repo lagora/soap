@@ -19,7 +19,10 @@
       <div class="half games games-count-{{games.length}}">
         <input ng-model="query" placeholder="search" class="hidden"/>
         <div class="game" ng-repeat="(index, game) in games | filter:query">
-          <img class="cover" src="http://lorempixel.com/640/640/nature/{{game.cover}}"/>
+          <img class="cover" src="http://lorempixel.com/640/640/nature/{{game.cover}}" ng-show="game.cover != null"/>
+          <div class="cover" ng-hide="game.cover != null">
+            - project {{game.project_name}} -
+          </div>
         </div>
       </div>
 
