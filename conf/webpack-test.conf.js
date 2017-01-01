@@ -21,17 +21,12 @@ module.exports = {
         loaders: [
           'babel'
         ]
-      },
-      {
-        test: /\.js$/,
-        exclude: /(node_modules|.*\.spec\.js)/,
-        loader: 'isparta'
       }
     ]
   },
   plugins: [],
   debug: true,
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'source-map',
   externals: {
     'react/lib/ExecutionEnvironment': true,
     'react/lib/ReactContext': true

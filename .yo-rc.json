@@ -1,6 +1,6 @@
 {
   "generator-fountain-react": {
-    "version": "0.7.2",
+    "version": "1.0.0-rc1",
     "props": {
       "framework": "react",
       "modules": "webpack",
@@ -16,7 +16,7 @@
         "cooked": [],
         "original": []
       },
-      "sample": "techs",
+      "sample": "todoMVC",
       "router": "router"
     }
   }
