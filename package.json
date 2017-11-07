@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/lagora/soap#readme",
   "devDependencies": {
-    "http-server": "^0.8.5"
+    "http-server": "^0.10.0"
   },
   "dependencies": {
     "angular": "^1.4.8",
-    "purecss": "^0.6.0"
+    "purecss": "^1.0.0"
   }
 }
